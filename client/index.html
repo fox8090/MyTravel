@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+        <title>MyTravel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row content">
+                <div class="col-sm-3 navbar">
+                    <h1>MyTravel</h1>
+                    <div id="user_header"></div>
+                    <div id="nav_buttons"></div>
+                    <div class="input-group">
+                      <input id="searchInput" type="text" class="form-control" placeholder="Search.." />
+                      <span class="input-group-btn">
+                        <button id="searchButton" class="btn btn-default" type="button" onclick="newSearch()">
+                          <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                      </span>
+                    </div>
+                
+                </div>
+                <div id ="main-content" class="col-sm-9"></div>
+            </div>
+          </div>
+          <footer class="container-fluid">
+            Designed by <a href="https://github.com/fox8090">github.com/fox8090</a>
+          </footer>
+    </body>
+</html>
