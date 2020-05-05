@@ -57,7 +57,7 @@ function makeNewPostPage () {
 
   content += '<br><h5><form><label>Image URL: </label> <input type="text" id="postimg"></form></h5><br>';
 
-  content += '</div><h4> Your Post:</h4><form role="form"><div class="form-group"><textarea id="posttext" class="form-control" rows="3" required></textarea></div><button id="submitbutton" type="button" class="btn btn-danger" onclick="newPost()">Submit</button></form></div><br>';
+  content += '</div><h4> Your Post:</h4><form role="form"><div class="form-group"><textarea id="posttext" class="form-control" rows="3" required></textarea></div><button id="submitbutton" type="button" class="btn btn-danger" onclick="newPost()">Submit</button></form></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>';
 
   document.getElementById('main-content').innerHTML = content;
   document.getElementById('nav_btn_home').className = '';
